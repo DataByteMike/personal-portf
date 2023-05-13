@@ -4,7 +4,12 @@ import Image from 'next/image';
 import AnimateNumber from '@/components/animateNumber';
 import AnimateText from '@/components/animateText';
 import Layout from '@/components/layout';
+import Skills from '@/components/about/skill';
 import TransitionEffect from '@/components/transitionEffect';
+
+import profilePicture from '../../public/images/about.png';
+import Experiences from '@/components/about/experience';
+import Education from '@/components/about/education';
 
 const about = () => {
   return (
@@ -54,13 +59,13 @@ const about = () => {
             </div>
             <div className="relative h-max col-span-3 xl:col-span-4 lg:col-span-8 rounded-2xl border-2 border-solid border-dark dark:border-light bg-light dark:bg-dark p-8 lg:order-1">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark dark:bg-light" />
-              {/* <Image
-                src={aboutPicture}
+              <Image
+                src={profilePicture}
                 alt="DataByteMike"
                 className="w-full h-auto rounded-2"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              /> */}
+              />
             </div>
             <div className="flex flex-col xl:flex-row items-end xl:items-center justify-between col-span-2 xl:col-span-8 lg:order-3">
               <div className="flex flex-col items-end xl:items-center justify-center">
@@ -81,6 +86,9 @@ const about = () => {
               </div>
             </div>
           </div>
+          <Skills />
+          <Experiences />
+          <Education />
         </Layout>
       </main>
     </>

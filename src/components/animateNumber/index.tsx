@@ -1,5 +1,5 @@
 import { useMotionValue, useSpring, useInView } from 'framer-motion';
-import { useRef, useMemo, useEffect } from 'react';
+import { useRef, useMemo } from 'react';
 
 type Props = {
   value: number;
