@@ -6,6 +6,8 @@ import Link from 'next/link';
 import AnimateText from '@/components/animateText';
 import TransitionEffect from '@/components/transitionEffect';
 
+import landingPicture from '../../public/images/landingpic.png';
+
 export default function Home() {
   return (
     <>
@@ -19,15 +21,15 @@ export default function Home() {
       <TransitionEffect />
       <main className="flex w-full min-h-screen items-center text-dark dark:text-light">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
-          <div className="flex lg:flex-col w-full items-center justify-between">
-            <div className="w-1/2 md:w-full">
-              {/* <Image
-                src={portfolioPic}
+          <div className="flex lg:flex-col w-full items-center justify-between gap-16">
+            <div className="w-1/2 md:w-full rounded-2xl border-2 border-solid border-dark dark:border-light bg-light dark:bg-dark p-8">
+              <Image
+                src={landingPicture}
                 alt=""
-                className="w-full h-auto lg:hidden md:inline-block md:w-full"
+                className="w-full h-auto lg:hidden md:inline-block md:w-full rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-              /> */}
+              />
             </div>
             <div className="flex flex-col w-1/2 lg:w-full items-center self-center lg:text-center">
               <AnimateText

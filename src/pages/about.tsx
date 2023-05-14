@@ -62,7 +62,7 @@ const about = () => {
               <Image
                 src={profilePicture}
                 alt="DataByteMike"
-                className="w-full h-auto rounded-2"
+                className="w-full h-auto rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
@@ -83,6 +83,10 @@ const about = () => {
                 <h1 className="font-medium capitalize text-dark/75 dark:text-light xl:text-center text-xl md:text-lg sm:text-base xs:text-sm">
                   Projects Completed
                 </h1>
+              </div>
+              <div className="flex flex-col items-end xl:items-center justify-center ">
+                <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl"></span>
+                <h1 className="font-medium capitalize text-dark/75 dark:text-light xl:text-center text-xl md:text-lg sm:text-base xs:text-sm"></h1>
               </div>
             </div>
           </div>
