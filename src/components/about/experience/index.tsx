@@ -30,6 +30,7 @@ const Experiences = () => {
             place="Florida Institute of Technology"
             time="August 2021 - April 2023"
             address="Melbourne, FL"
+            work=" The individual has experience tutoring students in programming languages such as Java, Python, and C, ranging from beginner to intermediate levels. They have helped students with various tasks such as projects, homework, and debugging lab assignments. Additionally, they have facilitated group discussions and provided guidance on coding and problem-solving techniques. Finally, they have provided constructive feedback to students to enhance their programming skills and understanding."
           />
         </ul>
       </div>
