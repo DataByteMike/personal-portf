@@ -45,7 +45,7 @@ export default function Home() {
               </p>
               <div className="flex mt-2 items-center self-start lg:self-center">
                 <Link
-                  href="/"
+                  href="/contact"
                   className="text-lg text-dark dark:text-light md:text-base font-medium capitalize underline underline-offset-2"
                 >
                   Let&apos;s Talk
