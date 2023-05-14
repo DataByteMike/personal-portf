@@ -1,3 +1,12 @@
+// typescript was complaining for an existing mdn tag
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      set: any; // ???
+    }
+  }
+}
+
 type Props = {
   className?: string;
 };
