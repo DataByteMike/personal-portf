@@ -72,10 +72,18 @@ const Navbar = () => {
           />
         </nav>
         <nav className="flex flex-wrap items-center justify-center">
-          <Link href="/" target={'_blank'} className="w-6 mr-3">
+          <Link
+            href="https://www.linkedin.com/in/michaelgourdine"
+            target={'_blank'}
+            className="w-6 mr-3"
+          >
             <LinkedInIcon />
           </Link>
-          <Link href="/" target={'_blank'} className="w-6 my-3">
+          <Link
+            href="https://github.com/DataByteMike"
+            target={'_blank'}
+            className="w-6 my-3"
+          >
             <GithubIcon />
           </Link>
           <button
@@ -131,14 +139,14 @@ const Navbar = () => {
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <Link
-              href="/"
+              href="https://www.linkedin.com/in/michaelgourdine"
               target={'_blank'}
               className="w-6 mr-3 sm:mx-1"
             >
               <LinkedInIcon />
             </Link>
             <Link
-              href="/"
+              href="https://github.com/DataByteMike"
               target={'_blank'}
               className="w-6 my-3 bg-light rounded-full dark:bg-dark sm:mx-1"
             >
