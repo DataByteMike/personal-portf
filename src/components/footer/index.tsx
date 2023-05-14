@@ -14,7 +14,7 @@ const Footer = () => {
             &hearts;
           </span>
           By&nbsp;
-          <Link href="/" className="underline underline-offset-2">
+          <Link href="https://github.com/DataByteMike" className="underline underline-offset-2">
             DataByteMike
           </Link>
         </div>
